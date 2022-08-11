@@ -1,4 +1,4 @@
-all: clean place model
+all: place model
 
 place:
 	rojo build -o place.rbxlx place.project.json
