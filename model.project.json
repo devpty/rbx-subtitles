@@ -1,0 +1,15 @@
+{
+  "name": "subtitles",
+  "tree": {
+    "$className": "Folder",
+    "ReplicatedStorage": {
+      "$path": "src/shared"
+    },
+    "StarterPlayerScripts": {
+      "$path": "src/client"
+    },
+    "StarterGui": {
+      "$path": "src/gui"
+    }
+  }
+}

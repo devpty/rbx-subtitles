@@ -1,0 +1,104 @@
+{
+  "name": "subtitles",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$path": "src/shared"
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "$path": "src/client"
+      }
+    },
+    "StarterGui": {
+      "$path": "src/gui"
+    },
+    "Workspace": {
+      "$properties": {
+        "FilteringEnabled": true
+      },
+      "Baseplate": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Color": [
+            0.38823,
+            0.37254,
+            0.38823
+          ],
+          "Locked": true,
+          "Position": [
+            0,
+            -10,
+            0
+          ],
+          "Size": [
+            512,
+            20,
+            512
+          ]
+        }
+      },
+      "SubtitlesTest": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "BottomSurface": "Smooth",
+          "TopSurface": "Smooth",
+          "Size": [
+            2.0,
+            2.0,
+            2.0
+          ],
+          "Position": [
+            0.0,
+            1.0,
+            2.0
+          ]
+        },
+        "ClickDetector": {
+          "$className": "ClickDetector"
+        },
+        "TestArea": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "BottomSurface": "Smooth",
+            "TopSurface": "Smooth",
+            "Material": "ForceField",
+            "CanCollide": false,
+            "Size": [
+              14.0,
+              14.0,
+              14.0
+            ],
+            "Position": [
+              0.0,
+              6.0,
+              13.0
+            ]
+          }
+        },
+        "$path": "src/test"
+      }
+    },
+    "Lighting": {
+      "$properties": {
+        "Ambient": [
+          0,
+          0,
+          0
+        ],
+        "Brightness": 2,
+        "GlobalShadows": true,
+        "Outlines": false,
+        "Technology": "Voxel"
+      }
+    },
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+  }
+}
